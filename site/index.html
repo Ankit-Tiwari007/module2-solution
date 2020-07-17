@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Menu</title>
+	<style>
+		h1{
+			margin-bottom: 15px;
+		}
+		p{
+			border: 1px solid black;
+			background-color: grey;
+			width: 80%;
+			height: 130px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: Helvetica;
+			color: black;
+			text-align: center;
+		}
+		}
+		row{
+			display: flex;
+			flex-direction: row;
+			margin: 40px;
+			width: 300px;
+		}
+		h1 {
+			text-align: center;
+		}
+		.heading {
+			border: 1px solid black;
+		}
+		@media (min-width: 1200px) {
+			.col-lg-1, .col-lg-2, .col-lg-3 {
+				float: left;
+				bottom: 1px solid green;
+			}
+			.col-lg-1 {
+				width: 33.33%;
+			}
+			.col-lg-2 {
+				width: 33.33%;
+			}
+			.col-lg-3{
+				width: 33.33%
+			}
+		}
+	</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+<div class="row">
+	<div class="col-lg-3 col-md-6"><p>lorem ipsum dolor sit amet, consecutor adipisicing elit, sed do eiusmod, tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris isi ut aliquip ex ea commado consequa</p></div>
+	<div class="col-lg-3 col-md-6"><p>item2</p></div>
+	<div class="col-lg-3 col-md-6"><p>item3</p></div>
+</div> 
+</body>
+</html>
